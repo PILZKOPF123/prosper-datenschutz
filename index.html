@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – PROSPER</title>
+<meta name="description" content="Datenschutzerklärung der Habit-Tracker-App PROSPER">
+<style>
+:root{--bg:#F3EADF;--card:#FBF6EE;--text:#3B2F26;--muted:#7A6A5C;--accent:#6B7A63;--line:#DCCFBE}
+@media (prefers-color-scheme:dark){:root{--bg:#1C1511;--card:#261D17;--text:#F1E8DC;--muted:#B5A697;--accent:#9DB090;--line:#3B2E25}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:1.7rem;line-height:1.25;margin:0 0 4px}
+h2{font-size:1.2rem;margin:0 0 8px;color:var(--accent)}
+p,li{margin:0 0 10px}
+ul{padding-left:1.2em;margin:0 0 10px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:16px 0}
+.stand{color:var(--muted);font-size:.9rem;margin-bottom:8px}
+a{color:var(--accent);word-break:break-word}
+table{width:100%;border-collapse:collapse;font-size:.92rem;display:block;overflow-x:auto}
+th,td{text-align:left;vertical-align:top;padding:8px 10px 8px 0;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:600}
+@media (min-width:600px){main{padding:40px 24px 64px}h1{font-size:2rem}section{padding:22px}}
+</style>
+</head>
+<body>
+<main>
+<h1>Datenschutzerklärung</h1>
+<p class="stand">PROSPER – Habit-Tracker für Android · Stand: 29.09.2026</p>
+
+<section>
+<h2>1. Verantwortlicher</h2>
+<p>Verantwortlich für die Datenverarbeitung ist der Entwickler der App PROSPER (Paketname <code>com.pilzkopf.prosper</code>).</p>
+<p>Kontakt: <a href="mailto:privaterpatrik@gmail.com">privaterpatrik@gmail.com</a></p>
+</section>
+
+<section>
+<h2>2. Das Wichtigste in Kürze</h2>
+<ul>
+<li>PROSPER nutzt <strong>keine Werbung</strong>, <strong>keine Analyse- oder Tracking-Dienste</strong> und gibt keine Daten zu Werbezwecken weiter.</li>
+<li>Deine Daten werden ausschließlich gespeichert, damit die App funktioniert: Konto, Tracker, Erledigungen, Termine und Einstellungen.</li>
+<li>Du kannst dein Konto samt aller Daten jederzeit selbst in der App löschen (Einstellungen → Konto → „Konto löschen").</li>
+</ul>
+</section>
+
+<section>
+<h2>3. Welche Daten wir verarbeiten</h2>
+<table>
+<tr><th>Daten</th><th>Zweck</th></tr>
+<tr><td>E-Mail-Adresse und Passwort (das Passwort wird nur als Hash gespeichert)</td><td>Registrierung, Anmeldung, Zurücksetzen des Passworts, Bestätigung der E-Mail</td></tr>
+<tr><td>Deine Tracker (Name, Farbe, Symbol, Anlagedatum) und Erledigungen (welcher Tracker an welchem Tag)</td><td>Kernfunktion der App; Level, Ligen und Bäume werden daraus berechnet</td></tr>
+<tr><td>Termine (Titel, Zeit, Farbe, Wiederholungen)</td><td>Kalender-Funktion</td></tr>
+<tr><td>Einstellungen (z. B. Wochenbeginn, Tagesbeginn)</td><td>Speichern deiner Einstellungen</td></tr>
+<tr><td>Feedback, das du freiwillig sendest (Text, deine E-Mail-Adresse, App-Version, Plattform)</td><td>Verbesserung der App, Antwort auf deine Nachricht</td></tr>
+<tr><td>Grund beim Löschen deines Kontos (Auswahl und optionaler Text) – <strong>anonym</strong>, ohne Bezug zu dir</td><td>Verbesserung der App</td></tr>
+<tr><td>Beim Registrieren: Die IP-Adresse wird nur als nicht umkehrbarer Hash (SHA-256 mit geheimem Zusatz) gespeichert und nach 24 Stunden gelöscht</td><td>Schutz vor Missbrauch (Begrenzung neuer Konten je Netz)</td></tr>
+</table>
+<p>Wir erheben keine Standortdaten, keine Kontakte, keine Fotos, keine Geräte-Werbe-ID und keine Zahlungsdaten.</p>
+</section>
+
+<section>
+<h2>4. Rechtsgrundlagen</h2>
+<ul>
+<li>Art. 6 Abs. 1 lit. b DSGVO – Bereitstellung der App und deines Kontos (Vertragserfüllung).</li>
+<li>Art. 6 Abs. 1 lit. a DSGVO – Feedback und Löschgrund, die du freiwillig sendest (Einwilligung).</li>
+<li>Art. 6 Abs. 1 lit. f DSGVO – Schutz vor Missbrauch und Sicherheit des Dienstes (berechtigtes Interesse).</li>
+</ul>
+</section>
+
+<section>
+<h2>5. Wo und wie die Daten gespeichert werden</h2>
+<p><strong>Auf deinem Gerät:</strong> Deine Daten liegen zuerst lokal in der App. Die Anmeldung wird verschlüsselt gespeichert (der Schlüssel liegt im sicheren Speicher deines Geräts). Außerdem speichert die App lokal einige Einstellungen wie den Schalter „Dunkler Hintergrund" und die Reihenfolge deiner Tracker.</p>
+<p><strong>In der Cloud:</strong> Zum Speichern deines Kontos und zum Abgleich nutzen wir <strong>Supabase</strong> (Supabase, Inc.). Die Datenbank steht in <strong>Frankfurt am Main (EU)</strong>. Alle Verbindungen sind per TLS verschlüsselt, und der Zugriff auf jede Tabelle ist per Row-Level-Security so beschränkt, dass jeder Nutzer nur seine eigenen Daten sehen kann.</p>
+<p><strong>E-Mail-Versand:</strong> Für Bestätigungs- und Rücksetzcodes sowie für die Benachrichtigung über neues Feedback nutzen wir <strong>Resend</strong> (Resend, Inc., USA). Dabei werden deine E-Mail-Adresse und der Inhalt der jeweiligen Nachricht verarbeitet. Für Übermittlungen in die USA gelten Standardvertragsklauseln der EU.</p>
+</section>
+
+<section>
+<h2>6. Weitergabe</h2>
+<p>Wir verkaufen keine Daten und geben sie nicht an Dritte weiter – außer an die oben genannten Dienstleister (Supabase, Resend), die nur in unserem Auftrag und nach unserer Weisung arbeiten. Google Play verarbeitet als Vertriebsplattform Daten zum Download nach eigener Datenschutzerklärung.</p>
+</section>
+
+<section>
+<h2>7. Speicherdauer und Löschung</h2>
+<ul>
+<li>Konto, Tracker, Erledigungen, Termine und Einstellungen bleiben, solange dein Konto besteht.</li>
+<li><strong>Konto löschen:</strong> In der App unter Einstellungen → Konto → „Konto löschen". Dabei werden dein Konto und <em>alle</em> zugehörigen Daten einschließlich deines Feedbacks unwiderruflich gelöscht.</li>
+<li>Ohne App-Zugang kannst du die Löschung auch per E-Mail an <a href="mailto:privaterpatrik@gmail.com">privaterpatrik@gmail.com</a> verlangen (von der bei uns registrierten Adresse aus); wir löschen dann innerhalb von 30 Tagen.</li>
+<li>Der anonym gespeicherte Löschgrund enthält keinen Bezug zu dir und bleibt bestehen.</li>
+<li>Über „Alle Daten zurücksetzen" in den Einstellungen kannst du zudem alle Tracker, Erledigungen und Termine löschen, ohne das Konto zu entfernen.</li>
+</ul>
+</section>
+
+<section>
+<h2>8. Deine Rechte</h2>
+<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO). Erteilte Einwilligungen kannst du jederzeit mit Wirkung für die Zukunft widerrufen. Schreibe dazu an <a href="mailto:privaterpatrik@gmail.com">privaterpatrik@gmail.com</a>.</p>
+<p>Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
+</section>
+
+<section>
+<h2>9. Kinder</h2>
+<p>PROSPER richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine Daten von Kindern.</p>
+</section>
+
+<section>
+<h2>10. Änderungen</h2>
+<p>Wir passen diese Erklärung an, wenn sich die App oder die Rechtslage ändert. Das aktuelle Datum steht oben.</p>
+</section>
+</main>
+</body>
+</html>
